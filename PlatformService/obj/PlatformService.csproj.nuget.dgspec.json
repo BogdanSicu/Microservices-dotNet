@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proiecte\\dotnet_microservices\\PlatformService\\PlatformService.csproj": {}
+    "D:\\Proiecte\\Microservices-dotNet\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "D:\\Proiecte\\dotnet_microservices\\PlatformService\\PlatformService.csproj": {
+    "D:\\Proiecte\\Microservices-dotNet\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proiecte\\dotnet_microservices\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "D:\\Proiecte\\Microservices-dotNet\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "D:\\Proiecte\\dotnet_microservices\\PlatformService\\PlatformService.csproj",
+        "projectPath": "D:\\Proiecte\\Microservices-dotNet\\PlatformService\\PlatformService.csproj",
         "packagesPath": "C:\\Users\\munti\\.nuget\\packages\\",
-        "outputPath": "D:\\Proiecte\\dotnet_microservices\\PlatformService\\obj\\",
+        "outputPath": "D:\\Proiecte\\Microservices-dotNet\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\munti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

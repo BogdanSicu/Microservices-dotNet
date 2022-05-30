@@ -1044,11 +1044,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proiecte\\dotnet_microservices\\CommandsService\\CommandsService.csproj",
+      "projectUniqueName": "D:\\Proiecte\\Microservices-dotNet\\CommandsService\\CommandsService.csproj",
       "projectName": "CommandsService",
-      "projectPath": "D:\\Proiecte\\dotnet_microservices\\CommandsService\\CommandsService.csproj",
+      "projectPath": "D:\\Proiecte\\Microservices-dotNet\\CommandsService\\CommandsService.csproj",
       "packagesPath": "C:\\Users\\munti\\.nuget\\packages\\",
-      "outputPath": "D:\\Proiecte\\dotnet_microservices\\CommandsService\\obj\\",
+      "outputPath": "D:\\Proiecte\\Microservices-dotNet\\CommandsService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\munti\\AppData\\Roaming\\NuGet\\NuGet.Config",

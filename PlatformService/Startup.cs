@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using PlatformService.Data;
+using PlatformService.SyncDataServices.Http;
 
 namespace PlatformService
 {
@@ -28,9 +29,14 @@ namespace PlatformService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // adding the type of DB we want to use
             services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase("InMemoryDb"));
 
+            // injecting the implementation of the IPlatformRepo
             services.AddScoped<IPlatformRepo, PlatformRepo>();
+
+            // injecting the implementation of the ICommandDataClient
+            services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
 
             services.AddControllers();
 
@@ -40,6 +46,8 @@ namespace PlatformService
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PlatformService", Version = "v1" });
             });
+
+            Console.WriteLine($"--> CommandService EndPoint {Configuration["CommandsService"]}");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -63,6 +71,7 @@ namespace PlatformService
                 endpoints.MapControllers();
             });
 
+            // pre-populating the DB
             PrepDb.PrepPopulation(app);
         }
     }

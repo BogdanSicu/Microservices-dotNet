@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "evsC0C0rq6hjA49Jf41qKGZPZLX3t1/t5mU3V66qwwpUQcGdyQY60HfDMngD4r0QO1FVNu7tDRPHHPS1NWx7Vw==",
+  "dgSpecHash": "B2kRjlM5fRDyHD3cmtfaREmMHDxOkRsaRRe29OjJi9GwDlw8KSWMwGL8yelKQp23/bemPoMuHNMwaTaNiDmX0Q==",
   "success": true,
-  "projectFilePath": "D:\\Proiecte\\dotnet_microservices\\CommandsService\\CommandsService.csproj",
+  "projectFilePath": "D:\\Proiecte\\Microservices-dotNet\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\munti\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\munti\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

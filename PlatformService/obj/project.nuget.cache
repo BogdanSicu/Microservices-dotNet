@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "swrquo4scAPuTXH1H9tWV1rVQKmLjCKB8u5d7ElPqhyhhJ9sQdi73qgsrjHkYFXeclH0eLBy6lG3QWeZ1IxKBQ==",
+  "dgSpecHash": "qyU5rs1Qt6w+hU33rfLSG6wFfG9pyOlkap3tRkiKPaL0/x/iOiGVTsXtgn+uUuP89IwvIATVNbYngvSxojXCTA==",
   "success": true,
-  "projectFilePath": "D:\\Proiecte\\dotnet_microservices\\PlatformService\\PlatformService.csproj",
+  "projectFilePath": "D:\\Proiecte\\Microservices-dotNet\\PlatformService\\PlatformService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\munti\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\munti\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
